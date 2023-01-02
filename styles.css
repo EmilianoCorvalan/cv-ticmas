@@ -3,7 +3,8 @@
     --second-background: #0b3c5d;
     --skyblue: #328cc1;
     --gold-color: #d9b310;
-    --white-color: #FFFAFA;
+    --white-color: #FAFAFA;
+    --grey-color: #abb4bb;
 }
 *{
     margin: 0;
@@ -19,6 +20,6 @@ body{
     background-color: var(--main-background);
     color: var(--white-color);
 }
-h1{
-    text-align: center;
+.span-grey{
+    color: var(--grey-color);
 }
