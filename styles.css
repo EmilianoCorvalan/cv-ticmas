@@ -24,3 +24,14 @@ body{
 .span-grey{
     color: var(--grey-color);
 }
+
+footer p, footer i, footer a, footer{
+    background-color: var(--second-background);
+}
+
+@media only screen and (min-width: 760px) {
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+}
