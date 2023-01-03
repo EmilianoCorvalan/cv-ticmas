@@ -24,14 +24,28 @@ body{
 .span-grey{
     color: var(--grey-color);
 }
+.span-gold{
+    color: var(--gold-color);
+}
 
 footer p, footer i, footer a, footer{
     background-color: var(--second-background);
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 770px) {
     .main-container{
         display: flex;
         justify-content: center;
+    }
+
+    .lateral-izq h1, .lateral-izq h4{
+        margin-top: 1.4rem;
+    }
+
+    .lateral-izq img, .lateral-izq h1{
+        margin-bottom: 1rem;
+    }
+    .lateral-izq hr{
+        display: none;
     }
 }
