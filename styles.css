@@ -49,3 +49,18 @@ footer p, footer i, footer a, footer{
         display: none;
     }
 }
+
+/* --- Animaciones --- */
+.efecto-escritura{
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    width: 23ch;
+
+    animation: typing 4s steps(23);
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from { width: 0}
+}
