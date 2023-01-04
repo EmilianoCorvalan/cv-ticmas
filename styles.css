@@ -42,6 +42,10 @@ footer{
     background: linear-gradient(0deg, rgba(50,140,193,0.5) 0%, rgba(11,60,93,1) 7%, rgba(29,39,49,1) 100%);
 }
 
+hr{
+    width: 50%;
+    margin: auto;
+}
 /* ---- Media Queries --- */
 
 @media only screen and (min-width: 770px) {
